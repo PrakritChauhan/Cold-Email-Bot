@@ -27,8 +27,7 @@ class ColdEmailBot:
 
     def read_spreadsheet(self):
         params = {
-            "limit": self.email_count,
-            "sort_by": "Importance Score"  # OPTIONAL: Add more params if needed
+            "limit": self.email_count      #Add more parameters if needed. Refer to documentation.
         }
 
         headers = {
