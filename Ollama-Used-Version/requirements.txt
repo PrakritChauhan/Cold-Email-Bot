@@ -1,0 +1,5 @@
+requests
+ollama
+groq
+bs4
+beautifulsoup4
